@@ -15,6 +15,7 @@ class AdvertEditType extends AbstractType
     {
         $builder
           ->remove('date')
+          ->remove('image')
           ->remove('advertSkills')
         ;
     }
